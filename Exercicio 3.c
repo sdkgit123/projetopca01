@@ -5,9 +5,9 @@ int main ()
 {
 float conta;
 float garcom;
-printf("Qual o valor da conta?:");
+printf("Qual o valor da conta?:\n");
 scanf("%f", &conta);
-printf("Quantos porcento da conta vão para o garçom? (Escreva sem a porcentagem):");
+printf("Quantos porcento da conta vão para o garçom? (Escreva sem a porcentagem):\n");
 scanf("%f", &garcom);
 float desc_garcom;
 float parte_garcom;
