@@ -1,9 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#include<stdio.h>
-#include<stdlib.h>
-
 int contar(int n, int d){
     int soma=0;
     while (n > 0){
