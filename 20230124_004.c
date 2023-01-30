@@ -49,5 +49,8 @@ int main(){
     for(l=0;l<=soma-1; l++){
         printf("%d ", numerospa[l]);
     }
+    if(soma == 0){
+    printf("Voce nao digitou numeros pares.");
+    }
 return 0;
 }
