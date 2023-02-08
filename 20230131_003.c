@@ -36,4 +36,5 @@ int main(){
         }
     }
     printf("%d do %d de %d", dia, mes, ano);
+    return 0;
 }
