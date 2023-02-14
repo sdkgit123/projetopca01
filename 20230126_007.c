@@ -38,7 +38,7 @@ int main(){
     }
     printf("Voce deseja viajar por quantas cidades?\n");
     scanf("%d", &quantas);
-    for(i=0; i<quantas; i++){
+    for(i=0; i<quantas-1; i++){
         printf("Digite as coordenadas da cidade que deseja viajar (separe por espaço):\n");
         scanf("%d %d", &cidi, &cidj);
         if(cidi>numerosfo || cidj>numerosfo){
