@@ -49,6 +49,9 @@ for(i=0; i<linhas; i++) {
         printf("%d ", matriz[i][j]);
     }
 }
+for (i=0; i<linhas; i++) {
+    free(matriz[i]);
+}
 free(matriz);
     return 0;
 }
